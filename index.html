@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Orballo Dev</title>
+    <title>orballo.dev</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <style>
       html,
@@ -29,18 +29,45 @@
         line-height: 2rem;
       }
 
-      b {
-        font-weight: normal;
+      code {
+        color: inherit;
         font-family: "Roboto Mono", monospace;
+        letter-spacing: -0.5px;
+        background-color: steelblue;
+        color: white;
+        padding: 0 4px;
       }
 
       a {
         color: inherit;
         font-weight: bolder;
+        padding: 0 4px;
+      }
+
+      a:hover {
+        color: inherit;
       }
 
       div {
         max-width: 600px;
+      }
+
+      .work {
+        color: sienna;
+      }
+
+      .work:hover {
+        background-color: sienna;
+        color: white;
+      }
+
+      .love {
+        color: palevioletred;
+      }
+
+      .love:hover {
+        background-color: palevioletred;
+        color: white;
       }
     </style>
   </head>
@@ -48,12 +75,14 @@
     <div>
       <h1>Hi! I'm Eduardo Campaña</h1>
       <p>
-        I'm a <b>software developer</b> and I usually work with <b>React</b>,
-        <b>Frontity</b> and <b>WordPress</b> (all together).
+        I'm a <code>software developer</code> and I like to work with
+        <code>React</code>, <code>Frontity</code> and
+        <code>WordPress</code> (all together).
       </p>
       <p>
-        I'm open to <a href="mailto:work@orballo.dev">job offers</a> and
-        <a href="mailto:love@orballo.dev">love letters</a>.
+        I'm open to
+        <a class="work" href="mailto:work@orballo.dev">job offers</a> and
+        <a class="love" href="mailto:love@orballo.dev">love letters</a>.
       </p>
     </div>
   </body>

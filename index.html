@@ -1,99 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>orballo.dev</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="Eduardo Campaña, freelance software developer."
-    />
+    <!-- SEO -->
+    <title>Orballo .Dev</title>
+    <meta name="description" content="Freelance software developer." />
     <link rel="canonical" href="https://orballo.dev" />
-    <style>
-      html,
-      body {
-        height: 100%;
-        font-family: "Roboto", "Helvetica", sans-serif;
-      }
-
-      body {
-        margin: 0;
-        display: flex;
-        justify-content: center;
-        color: #333;
-        padding: 64px 24px;
-        box-sizing: border-box;
-      }
-
-      h1 {
-        font-size: 2rem;
-      }
-
-      h2 {
-        font-size: 1.6rem;
-      }
-
-      p {
-        font-size: 1.2rem;
-        font-weight: lighter;
-        line-height: 2rem;
-      }
-
-      code {
-        color: inherit;
-        font-family: "Roboto Mono", monospace;
-        letter-spacing: -0.5px;
-        background-color: steelblue;
-        color: white;
-        padding: 0 4px;
-      }
-
-      a {
-        color: inherit;
-        font-weight: bolder;
-        padding: 0 4px;
-      }
-
-      a:hover {
-        color: inherit;
-      }
-
-      div {
-        max-width: 600px;
-      }
-
-      .work {
-        color: sienna;
-      }
-
-      .work:hover {
-        background-color: sienna;
-        color: white;
-      }
-
-      .project {
-        color: palevioletred;
-      }
-
-      .project:hover {
-        background-color: palevioletred;
-        color: white;
-      }
-    </style>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Styles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="/index.css" />
+    <!-- Icons -->
+    <link rel="icon" type="image/png" href="/assets/icon.png" />
   </head>
   <body>
-    <div>
+    <img class="logo" src="/assets/logo.svg" />
+    <main>
       <h1>Hi! I'm Eduardo Campaña</h1>
       <p>
-        I'm a <code>software developer</code> and I like to work with
-        <code>React</code>, <code>Frontity</code> and
-        <code>WordPress</code> (all together).
+        I'm a software developer and I like to build things with
+        <span class="skill">React</span>,
+        <span class="skill">Frontity</span> and
+        <span class="skill">WordPress</span>.
       </p>
       <p>
-        I'm open to
-        <a class="work" href="mailto:asrielo@gmail.com">job offers</a>.
+        I started my career working for a company developing open source
+        software, but now I work as a freelance and I spend my spare time on
+        side projects.
       </p>
       <br />
-      <h2>Side Projects</h2>
+      <h2 id="open-source">Open source</h2>
+      <p>
+        <span class="oss"><a href="https://frontity.org">Frontity</a>:</span>
+        Frontity is an opinionated React framework focused on WordPress. I was
+        part of the team that built the v1.0 and I still collaborate with them
+        from time to time.
+      </p>
+      <br />
+      <h2 id="projects">Side projects</h2>
       <p>
         <span class="project"
           ><a href="https://yama.orballo.dev">Yama</a>:</span
@@ -108,6 +56,14 @@
         A small app (in Spanish) to generate invoices and download them as a PDF
         file.
       </p>
-    </div>
+      <br />
+      <h2 id="contact">Contact</h2>
+      <p>
+        You can find me on
+        <a class="contact" href="https://github.com/orballo">Github</a>, but if
+        you have a work related inquiry you can reach me at
+        <a class="contact" href="work@orballo.dev">asrielo@gmail.com</a>.
+      </p>
+    </main>
   </body>
 </html>

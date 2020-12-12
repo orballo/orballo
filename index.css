@@ -1,0 +1,116 @@
+html,
+body {
+  height: 100%;
+  font-family: "Prompt", sans-serif;
+}
+
+body {
+  margin: 0;
+  color: #333;
+  box-sizing: border-box;
+
+  --main-bg-color: #082846;
+  --main-color: #d9eff3;
+}
+
+main {
+  max-width: 640px;
+  margin: auto;
+  padding: 64px 32px;
+  background-color: var(--main-bg-color);
+  color: var(--main-color);
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: whitesmoke;
+}
+
+h2 {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: whitesmoke;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  hyphens: auto;
+}
+
+a {
+  color: inherit;
+  font-weight: bolder;
+  padding: 0 4px;
+}
+
+a:hover {
+  color: inherit;
+}
+
+.logo {
+  display: block;
+  max-width: 240px;
+  margin: 92px auto;
+  padding: 0 24px;
+}
+
+.skill {
+  filter: brightness(75%);
+}
+
+.oss {
+  color: cornflowerblue;
+}
+
+.oss:hover {
+  background-color: cornflowerblue;
+  color: white;
+}
+
+.project {
+  color: palevioletred;
+}
+
+.project:hover {
+  background-color: palevioletred;
+  color: white;
+}
+
+.contact {
+  color: goldenrod;
+  hyphens: none;
+}
+
+.contact:hover {
+  background-color: goldenrod;
+  color: white;
+}
+
+@media (min-width: 360px) {
+  .logo {
+    height: 220px;
+  }
+}
+
+@media (min-width: 480px) {
+  main {
+    padding: 64px;
+  }
+}
+
+@media (min-width: 640px) {
+  main {
+    padding: 64px 92px;
+  }
+
+  .logo {
+    height: 320px;
+    max-width: 320px;
+    margin: 128px auto;
+  }
+}

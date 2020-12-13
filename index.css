@@ -5,21 +5,20 @@ body {
 }
 
 body {
-  margin: 0;
-  color: #333;
-  box-sizing: border-box;
-
   --main-bg-color: #082846;
   --main-color: #d9eff3;
+
+  margin: 0;
+  box-sizing: border-box;
 }
 
 main {
   max-width: 640px;
   margin: auto;
   padding: 64px 32px;
-  background-color: var(--main-bg-color);
-  color: var(--main-color);
   box-sizing: border-box;
+  color: var(--main-color);
+  background-color: var(--main-bg-color);
 }
 
 h1 {
@@ -97,13 +96,13 @@ a:hover {
 
 @media (min-width: 480px) {
   main {
-    padding: 64px;
+    padding: 64px 64px 92px 64px;
   }
 }
 
 @media (min-width: 640px) {
   main {
-    padding: 64px 92px;
+    padding: 64px 92px 92px 92px;
   }
 
   .logo {

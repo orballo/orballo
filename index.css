@@ -39,7 +39,6 @@ h2 {
 p {
   font-size: 1.2rem;
   line-height: 2rem;
-  hyphens: auto;
 }
 
 a {
@@ -83,7 +82,6 @@ a:hover {
 
 .contact {
   color: goldenrod;
-  hyphens: none;
 }
 
 .contact:hover {
